@@ -17,7 +17,7 @@ We have translated the military logic into a civilian context:
 | **Radar Zone** | **Storm Zone** | [cite_start]Dangerous weather area to avoid [cite: 176-179]. |
 
 ## 📂 Project Structure
-```text
+
 DisasterReliefOptimizer/
 │
 ├── config.py           # Central configuration (Map size, Drone types, Task definitions)
@@ -27,6 +27,7 @@ DisasterReliefOptimizer/
 ├── rl_agent.py         # The "Brain" - Q-Learning agent that learns which operator to use
 ├── main.py             # Entry point - Runs the full simulation
 └── requirements.txt    # Dependencies
+
 ## 🚀 Installation & Usage
 Prerequisites: Ensure you have Python installed.
 Install Dependencies:Bash :- pip install -r requirements.txt
